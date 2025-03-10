@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">compose-design</string>
+    <string name="email_example">name@example.com</string>
+    <string name="email">email</string>
+    <string name="password_placeholder">Your password</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="do_you_need">"Do you need "</string>
+    <string name="help">help?</string>
+    <string name="template_made_by_mehedi_toure">Quick template made by mehedi.toure</string>
+    <string name="login_into_your_account">Login into your account</string>
+    <string name="let_s_build_our_health">Let\'s build our health</string>
+    <string name="fitness_app">Fitness App</string>
+    <string name="sign_in">Sign In</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="example">example</string>
+    <string name="exemple_phone">+1 12 34 56 789</string>
+    <string name="phone_number">Phone number</string>
+    <string name="welcome_create_your_account">Welcome! Create Your Account</string>
+    <string name="greeting_register"><![CDATA[Join Us & Get Started Today!]]></string>
+    <string name="register">Register</string>
+    <string name="sample_password">*******************</string>
 </resources>
