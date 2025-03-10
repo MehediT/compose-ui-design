@@ -1,4 +1,4 @@
-package com.toure.compose_design.ui.screens.sleekFitnessApp
+package com.toure.compose_design.ui.screens.fitness_app
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
@@ -14,13 +14,18 @@ internal val colorScheme = lightColorScheme(
     onBackground = Color.White,
     primary = Color(0xFF1352F1),
     onPrimary = Color.White,
+    secondary = Color(0xFF485aa0),
+    onSecondary = Color(0xFFffffff),
+    surface = Color(0xFFF7F6FA),
+    onSurface = Color(0xFF192126),
+    secondaryContainer = Color(0xFFEAECFF),
+    onSecondaryContainer = Color(0xFF192126),
     /* Other default colors to override
     surface = Color(0xFFFFFBFE),
     onPrimary = Color.White,
     onSecondary = Color.White,
     onTertiary = Color.White,
     onBackground = Color(0xFF1C1B1F),
-    onSurface = Color(0xFF1C1B1F),
     */
 )
 

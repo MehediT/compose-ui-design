@@ -1,4 +1,4 @@
-package com.toure.compose_design.ui.screens.sleekFitnessApp
+package com.toure.compose_design.ui.screens.fitness_app
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -96,7 +96,7 @@ private fun GoogleSignInButton() {
         onClick = {}, modifier = Modifier.fillMaxWidth()
     ) {
         Icon(
-            imageVector = ImageVector.vectorResource(id = R.drawable.google_icons),
+            imageVector = ImageVector.vectorResource(id = R.drawable.google_icon),
             tint = Color.Unspecified,
             contentDescription = null,
             modifier = Modifier.size(ButtonDefaults.IconSize)
@@ -151,7 +151,7 @@ private fun RegistrationForm() {
                 horizontalArrangement = Arrangement.spacedBy(8.dp),
             ) {
                 Icon(
-                    imageVector = ImageVector.vectorResource(id = R.drawable.langue),
+                    imageVector = ImageVector.vectorResource(id = R.drawable.language_icon),
                     contentDescription = null,
                     tint = MaterialTheme.colorScheme.primary,
                     modifier = Modifier
@@ -227,7 +227,7 @@ private fun RegisterHeader() {
                 horizontalArrangement = Arrangement.spacedBy(8.dp)
             ) {
                 Icon(
-                    imageVector = ImageVector.vectorResource(id = R.drawable.fitbit_24dp),
+                    imageVector = ImageVector.vectorResource(id = R.drawable.fitbit_icon),
                     contentDescription = null,
                     tint = MaterialTheme.colorScheme.primary,
                     modifier = Modifier.size(36.dp)

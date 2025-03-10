@@ -1,4 +1,4 @@
-package com.toure.compose_design.ui.screens.sleekFitnessApp
+package com.toure.compose_design.ui.screens.fitness_app
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -149,7 +149,7 @@ private fun LoginHeader() {
                 horizontalArrangement = Arrangement.spacedBy(8.dp)
             ) {
                 Icon(
-                    imageVector = ImageVector.vectorResource(id = R.drawable.fitbit_24dp),
+                    imageVector = ImageVector.vectorResource(id = R.drawable.fitbit_icon),
                     contentDescription = null,
                     tint = MaterialTheme.colorScheme.primary,
                     modifier = Modifier.size(36.dp)
